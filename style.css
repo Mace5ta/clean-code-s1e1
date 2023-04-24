@@ -43,7 +43,7 @@ li {
   }
 }
 
-.centered-element {
+.main-block {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -75,8 +75,7 @@ li {
 }
 
 /* Heading */
-.task-title,
-.new-task-label {
+.task-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -104,7 +103,7 @@ li {
 }
 
 /* New Task */
-.new-task-label {
+#add-new-task .task-title {
   display: block;
   margin: 0 0 20px;
 }
