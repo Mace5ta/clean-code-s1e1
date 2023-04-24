@@ -1,9 +1,4 @@
 /* Reset Default Styles */
-li,
-h3 {
-  list-style: none;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -11,7 +6,12 @@ ul {
 
 input,
 button {
-  outline: none;
+  outline:none;
+}
+
+h3,
+li {
+  list-style:none;
 }
 
 /* Basic Style */
